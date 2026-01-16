@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+.terraform.lock.hcl
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Secrets
+.ssh/
+id_*
+
