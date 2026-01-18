@@ -9,15 +9,7 @@ terraform {
     }
   }
 
-  cloud { 
-    
-    organization = "Batch-12surajs" 
  
-    workspaces { 
-      name = "rg-res" 
-    } 
-  } 
-
 }
 
 # Input variable
@@ -41,4 +33,5 @@ resource "local_file" "file1" {
 output "output_print" {
   value = local_file.file1.id
 }
+
 
