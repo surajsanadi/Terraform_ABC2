@@ -8,7 +8,7 @@ terraform {
       version = "2.6.1"
     }
   }
-
+}
 # Input variable
 variable "filename" {
   type    = string
@@ -30,6 +30,7 @@ resource "local_file" "file1" {
 output "output_print" {
   value = local_file.file1.id
 }
+
 
 
 
