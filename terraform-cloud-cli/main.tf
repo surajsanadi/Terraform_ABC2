@@ -12,7 +12,7 @@ terraform {
 # Input variable
 variable "filename" {
   type    = string
-  default = "ABC.txt"
+  default = "cloud.txt"
 }
 
 # Local variable
@@ -30,6 +30,7 @@ resource "local_file" "file1" {
 output "output_print" {
   value = local_file.file1.id
 }
+
 
 
 
