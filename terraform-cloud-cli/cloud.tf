@@ -1,11 +1,11 @@
- terraform { 
-   cloud { 
+# terraform { 
+#   cloud { 
     
-     organization = "Batch-12surajs" 
+#      organization = "Batch-12surajs" 
  
-     workspaces { 
-       name = "rg-res" 
-     } 
-   } 
- }
+#     workspaces { 
+#       name = "rg-res" 
+#     } 
+#   } 
+# }
 
